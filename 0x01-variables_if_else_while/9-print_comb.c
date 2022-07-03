@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * maim - Prints all possible combo of single-digit numbers.
+ * main - Prints all possible combo of single-digit numbers.
  *
  * Return: Always 0.
  */
