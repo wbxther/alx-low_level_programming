@@ -1,17 +1,19 @@
 #include "main.h"
 
 /**
- * _putchar - Write a program that prints _putchar
- * Followed by new line
+ * Main - Entry
  *
  * Return: Always 0.
  */
 int main(void)
 {
-	char ch[] = "_putchar\n";
+	char ch[] = "_putchar";
 	int i;
-	
-	for (i = 0; i <= 9; i++)
+
+	for (i = 0; i <= 8; i++)
+	{
 		_putchar(ch[i]);
+	}
+	putchar('\n');
 	return (0);
 }
