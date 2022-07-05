@@ -1,4 +1,4 @@
-#include (main.h)
+#include 'main.h'
 
 /**
  * _putchar - Write a program that prints _putchar
@@ -6,7 +6,7 @@
  *
  * Return: Always 0.
  */
-int _putchar(char ch[] = "_putchar")
+int _putchar(char ch[]; = "_putchar")
 {
 	putchar{'\n'}
 
