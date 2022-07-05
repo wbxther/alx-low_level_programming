@@ -6,9 +6,10 @@
  *
  * Return: Always 0.
  */
-int _putchar(char ch[]; = "_putchar")
+int main(void)
+	char ch[] = "_putchar"
 {
-	putchar{'\n'}
+	putchar('\n')
 
 	return (0);
 }
