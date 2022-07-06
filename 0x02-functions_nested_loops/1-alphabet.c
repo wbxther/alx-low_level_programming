@@ -11,7 +11,7 @@ int main(void)
 
 	for (i = 97; i <= 122; i++)
 	{
-		putchar(alp[i]);
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);
