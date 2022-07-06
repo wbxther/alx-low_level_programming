@@ -7,7 +7,7 @@
  *
  * Return: 1 for letters. 0 otherwise
  */
-int_isalpha(int c)
+int _isalpha(int c)
 {
 	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
 	{
@@ -17,5 +17,5 @@ int_isalpha(int c)
 	{
 		return (0);
 	}
-	_putchar('\n);
+	_putchar('\n');
 }
