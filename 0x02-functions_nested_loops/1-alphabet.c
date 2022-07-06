@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**
  * main - Prints alphabet in lowercase
@@ -9,7 +9,7 @@ int main(void)
 {
 	int i;
 
-	for (i = 97, i <=122, i++)
+	for (i = 97, i <= 122, i++)
 	{
 		putchar(i);
 	}
