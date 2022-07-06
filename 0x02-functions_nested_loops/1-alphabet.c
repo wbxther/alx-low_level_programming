@@ -5,14 +5,14 @@
  *
  * Return: Always 0. (Success)
  */
-int main(void)
+void print_alphabet_(void)
 {
 	int i;
 
 	for (i = 97; i <= 122; i++)
 	{
-		putchar(i);
+		_putchar(i);
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
