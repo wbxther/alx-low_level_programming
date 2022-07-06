@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * @_putchar: prints _putchar
+ * description: prints '_putchar\n'
  * Return: Always 0.
  */
 int main(void)
