@@ -5,10 +5,12 @@
  *
  * Result: void
  */
-int i;
-int k;
+void print_alphabet_x10(void)
 {
-	for (k = 0; k <= 10; k++)
+	int i;
+	int k;
+
+ for (k = 0; k <= 10; k++)
 	{
 		for (i = 97; i <=122; i++)
 		{
