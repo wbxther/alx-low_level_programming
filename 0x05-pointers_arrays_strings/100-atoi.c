@@ -29,10 +29,10 @@ int _atoi(char *s)
 
 		if (isi == 1)
 		{
-			
+
 			break;
 		}
-		
+
 		c++;
 	}
 	ni *= min;
