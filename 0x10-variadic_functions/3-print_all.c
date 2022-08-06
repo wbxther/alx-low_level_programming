@@ -1,4 +1,4 @@
-#include "variadic_functions_h"
+#include "variadic_functions.h"
 
 /**
  * print_all - prints anything
@@ -40,7 +40,7 @@ void print_all(const char * const format, ...)
 				c = 1;
 				break;
 			case 's':
-				str = va_arg(va_list, char *);
+				str = va_arg(ap, char *);
 				c = 1;
 				if (!str)
 				{
@@ -52,5 +52,6 @@ void print_all(const char * const format, ...)
 		}
 		i++;
 	}
-	printf("\n", va_end(ap));
+	printf("\n");
+	       	va_end(ap);
 }
