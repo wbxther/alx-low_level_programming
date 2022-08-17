@@ -1,4 +1,3 @@
-807 Bytes
 #include "lists.h"
 
 /**
